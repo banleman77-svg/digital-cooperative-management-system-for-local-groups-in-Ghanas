@@ -26,8 +26,8 @@ This creates the `susu_db` database with all tables.
 ### Step 4 — Configure (optional)
 Open `config/db.php`. Default settings match a fresh XAMPP install:
 ```php
-define('DB_HOST', '127.0.0.1');
-define('DB_NAME', 'susu_db');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'susu_group');
 define('DB_USER', 'root');
 define('DB_PASS', '');  // change if you set a MySQL password
 define('APP_URL',  'http://localhost/susu_php');
